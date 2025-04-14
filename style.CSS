@@ -2,13 +2,13 @@ body {
     background-color: rgb(145, 143, 145);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
-    padding: 4px;
+    padding: 0px;
 }
 
 #titulo {
     text-align: center;
     background-color: rgb(161, 158, 158);
-    margin: 6px;
-    padding: 6px;
+    margin: 0px;
+    padding: 5px;
 
 }
