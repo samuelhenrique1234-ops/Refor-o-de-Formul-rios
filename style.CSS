@@ -5,14 +5,6 @@ body {
     padding: 0px;
 }
 
-#titulo {
-    text-align: center;
-    background-color: rgb(161, 158, 158);
-    margin: 0px;
-    padding: 1px;
-
-}
-
 .container {
     
     color: white;
@@ -61,12 +53,12 @@ legend{
     transition: .5s;
 }
 
+
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
     color: dodgerblue;
- 
 }
 
 #data_nascimento{
