@@ -12,27 +12,50 @@
 <body>
 
     <header>
-    
+
     </header>
 
     <main>
         <div class="container">
             <form action="">
                 <fieldset>
-                
+
                 <legend><b>Criando a ficha do seu Personagem</b></legend>
+
+                <p><b>- Informações do Player:</b></p>
                 
                 <br>
 
-                <p><b>- Informações basicas:</b></p>
-                
+                <div class="inputBox">
+                    <input type="text" name="nome.c" class="inputUser" required>
+                    <label for="nome.c" class="labelInput">Nome Completo</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="email" id="email" name="email" class="inputUser"required>
+                    <label for="email" class="labelInput">E-mail</label>
+                </div>
+
+                <br><br>
+
+                <div class="inputBox">
+                    <input type="text" name="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+    
+                <p><b>- Informações basicas do Personagem:</b></p>
+                    
                 <br>
                 
                 <div class="inputBox">
                     <input type="text" name="nome" class="inputUser" required>
                     <label for="nome" class="labelInput">Nome do Personagem</label>
                 </div>
+
                 <br><br>
+
                 <div class="inputBox">
                     <input type="text" name="altura" class="inputUser" required>
                     <label for="altura" class="labelInput">Altura do Personagem</label>
@@ -91,17 +114,12 @@
                     <p>Biografia do Personagem: (Lore)</p>
 
                 <div class="inputBox">
-                    <input type="text" name="lore" class="inputUser" required>
-                    <label for="lore" class="labelInput"></label>
+                    <textarea id="w3review" name="w3review" rows="5" cols="100" ></textarea>
+                    <input type="submit" value="Submit">
                 </div>
 
 
-
-
-
-
-
-
+        
                 </fieldset>
             </form>    
         </div>
